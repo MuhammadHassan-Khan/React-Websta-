@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../assets/Component/Navbar'
-import work from "../assets/image/Work.png";
+import work1 from "../assets/image/Work.png";
 import work2 from "../assets/image/Work2.png";
 import work3 from "../assets/image/Work3.png";
 import work4 from "../assets/image/Work4.png";
@@ -24,7 +24,7 @@ export const Services = () => {
             
             <div className="service-card bg-[#1D1D1F] p-6 rounded-lg shadow-lg">
               <img
-                src={work}
+                src={work1}
                 alt="Frontend Development"
                 className="w-full h-40 object-cover rounded-t-lg"
               />
