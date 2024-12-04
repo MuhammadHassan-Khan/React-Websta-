@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../assets/Component/Navbar'
-import work1 from "../assets/image/Work.png";
+import work from "../assets/image/Work.png";
 import work2 from "../assets/image/Work2.png";
 import work3 from "../assets/image/Work3.png";
 import work4 from "../assets/image/Work4.png";
@@ -26,7 +26,7 @@ export const Portfolio = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <div className="service-card bg-[#1D1D1F] p-6 rounded-lg shadow-lg">
               <img
-                src={work1}
+                src={work}
                 alt="Website Development"
                 className="w-full h-40 object-cover rounded-t-lg"
               />
