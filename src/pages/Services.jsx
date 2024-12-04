@@ -24,7 +24,7 @@ export const Services = () => {
             
             <div className="service-card bg-[#1D1D1F] p-6 rounded-lg shadow-lg">
               <img
-                src={work1}
+                src={work}
                 alt="Frontend Development"
                 className="w-full h-40 object-cover rounded-t-lg"
               />
